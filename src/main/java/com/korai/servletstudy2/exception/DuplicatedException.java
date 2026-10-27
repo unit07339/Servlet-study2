@@ -19,3 +19,18 @@ public class DuplicatedException extends RuntimeException { // 예외 메시지�
 * 예외가 발생한 상세 원인을 문자열로 받아 부모 클래스(super(message))로 전달
 * 이렇게 전달된 메시지는 나중에 e.getMassage로 꺼내어 클라이언트에게 전송할 응답 메시지로 활용 가능
 */
+
+
+
+/*
+package com.korai.servletstudy2.exception; // 패키지 위치 지정
+
+// RuntimeException을 상속받아 실행 중에 발생시킬 예외 클래스를 정의합니다.
+public class DuplicatedException extends RuntimeException {
+
+    // 예외 발생 시 보여줄 에러 메시지를 전달받는 생성자
+    public DuplicatedException(String message) {
+        super(message); // 전달받은 메시지를 부모 클래스(RuntimeException)에 넘겨 저장합니다.
+    }
+}
+*/
