@@ -50,7 +50,8 @@ public class BookApiController extends HttpServlet {
             resp.getWriter().println(objectMapper.writeValueAsString(Map.of(
                     "message", e.getMessage()
             )));
-            return;
         }
     }
 }
+
+// BookListController

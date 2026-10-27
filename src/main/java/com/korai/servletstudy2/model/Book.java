@@ -18,8 +18,8 @@ public class Book {
         this.id = other.id;
         this.bookName = other.bookName;
         this.price = other.price;
+    }
 }
-
-}
+// DuplicatedException
 
 

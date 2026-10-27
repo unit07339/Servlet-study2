@@ -2,7 +2,6 @@ package com.korai.servletstudy2.controller;
 
 
 // 8. 초기 데이터 2건을 등록하고, 도서 전체 목록을 받아 book-list.jsp로 전달함
-// 9. book-list.jsp로 이동 -> 도서 목록 데이터를 받아 HTML 테이블로 바인딩하여 보여주는 화면
 
 import com.korai.servletstudy2.model.Book;
 import com.korai.servletstudy2.service.BookService;
@@ -32,3 +31,5 @@ public class BookListController extends HttpServlet {
         req.getRequestDispatcher("/WEB-INF/views/book-list.jsp").forward(req, resp);
     }
 }
+
+// 9. book-list.jsp로 이동 -> 도서 목록 데이터를 받아 HTML 테이블로 바인딩하여 보여주는 화면

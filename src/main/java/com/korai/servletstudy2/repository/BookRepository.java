@@ -41,5 +41,5 @@ public class BookRepository {
     public List<Book> findAll() {
         return books.stream().map(book -> new Book(book)).toList();
     }
-
 }
+// BookService
