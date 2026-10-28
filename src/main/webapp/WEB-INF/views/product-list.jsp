@@ -50,7 +50,14 @@
             console.log(responseJson);
             const tbody = document.querySelector('tbody');
             tbody.innerHTML = responseJson.map((product, index) => (
-                "<tr><td>" + (index +1) + "</td><td>" + product.productName + "</td><td>" + product.price + "</td></tr>"
+                `
+                <tr>
+                    <td>$/{index + 1}</td>
+                    <td>$/{product.productName}</td>
+                    <td>$/{product.price}</td>
+                </tr>
+                `
+
             )).join("");
         }
 

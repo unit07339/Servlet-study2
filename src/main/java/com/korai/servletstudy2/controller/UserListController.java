@@ -1,7 +1,6 @@
 package com.korai.servletstudy2.controller;
 
 import com.korai.servletstudy2.model.User;
-import com.korai.servletstudy2.repository.UserRepository;
 import com.korai.servletstudy2.service.UserService;
 
 import javax.servlet.ServletConfig;
