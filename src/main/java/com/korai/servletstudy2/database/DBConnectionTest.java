@@ -1,5 +1,7 @@
 package com.korai.servletstudy2.database;
 
+import com.korai.servletstudy2.entity.Menu;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
